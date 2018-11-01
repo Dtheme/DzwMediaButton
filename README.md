@@ -1,7 +1,7 @@
 # DzwMediaButton
 工程使用过的多媒体播放动画按钮，主动画部分模仿爱奇艺播放按钮，添加了点击涟漪效果，涟漪效果的想法来自itunes中的按钮。
 
-## 主要思路
+### 主要思路
 
 DzwMediaButton继承与UIButton，在UIButton基础上添加动画layer。按钮有2种状态：
 
@@ -16,7 +16,7 @@ typedef NS_ENUM(NSInteger,PlayButtonState) {
 
 动画在状态切换时发生，整个动画可以拆解成2大部分：线条动画和点击涟漪动画。
 
-### 线条动画：
+#### 线条动画：
 
 你可以通过Simulator-Debug-Slow Animation查看动画细节 或者拆解gif图查看动画细节，这里以暂停到播放为例：
 
@@ -44,7 +44,7 @@ typedef NS_ENUM(NSInteger,PlayButtonState) {
 
 
 
-### 涟漪动画
+#### 涟漪动画
 
 涟漪动画就是点击按钮以后从按钮中间，或者你点击的点泛起一个圆（可以通过下面属性设置）：
 
