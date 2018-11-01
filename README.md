@@ -5,5 +5,5 @@
 
 
 
-<div align=center><img src="https://github.com/Dtheme/DzwGuidenceView/blob/master/gif/launch.gif"/></div>
+<div align=center><img src="https://github.com/Dtheme/DzwMediaButton/blob/master/gif/button.gif"/></div>
 
