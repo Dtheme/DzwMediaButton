@@ -13,8 +13,6 @@
 		961199B82189A37D0089446F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 961199B72189A37D0089446F /* Assets.xcassets */; };
 		961199BB2189A37D0089446F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 961199B92189A37D0089446F /* LaunchScreen.storyboard */; };
 		961199BE2189A37E0089446F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 961199BD2189A37E0089446F /* main.m */; };
-		961199C82189A37E0089446F /* DzwMediaButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 961199C72189A37E0089446F /* DzwMediaButtonTests.m */; };
-		961199D32189A37E0089446F /* DzwMediaButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 961199D22189A37E0089446F /* DzwMediaButtonUITests.m */; };
 		961199E32189A3C50089446F /* DzwMediaButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 961199E12189A3C50089446F /* DzwMediaButton.m */; };
 /* End PBXBuildFile section */
 
@@ -47,11 +45,7 @@
 		961199BC2189A37E0089446F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		961199BD2189A37E0089446F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		961199C32189A37E0089446F /* DzwMediaButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DzwMediaButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		961199C72189A37E0089446F /* DzwMediaButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DzwMediaButtonTests.m; sourceTree = "<group>"; };
-		961199C92189A37E0089446F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		961199CE2189A37E0089446F /* DzwMediaButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DzwMediaButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		961199D22189A37E0089446F /* DzwMediaButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DzwMediaButtonUITests.m; sourceTree = "<group>"; };
-		961199D42189A37E0089446F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		961199E12189A3C50089446F /* DzwMediaButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DzwMediaButton.m; sourceTree = "<group>"; };
 		961199E22189A3C50089446F /* DzwMediaButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DzwMediaButton.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -85,8 +79,6 @@
 			isa = PBXGroup;
 			children = (
 				961199AD2189A37C0089446F /* DzwMediaButton */,
-				961199C62189A37E0089446F /* DzwMediaButtonTests */,
-				961199D12189A37E0089446F /* DzwMediaButtonUITests */,
 				961199AC2189A37C0089446F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -116,24 +108,6 @@
 				961199BD2189A37E0089446F /* main.m */,
 			);
 			path = DzwMediaButton;
-			sourceTree = "<group>";
-		};
-		961199C62189A37E0089446F /* DzwMediaButtonTests */ = {
-			isa = PBXGroup;
-			children = (
-				961199C72189A37E0089446F /* DzwMediaButtonTests.m */,
-				961199C92189A37E0089446F /* Info.plist */,
-			);
-			path = DzwMediaButtonTests;
-			sourceTree = "<group>";
-		};
-		961199D12189A37E0089446F /* DzwMediaButtonUITests */ = {
-			isa = PBXGroup;
-			children = (
-				961199D22189A37E0089446F /* DzwMediaButtonUITests.m */,
-				961199D42189A37E0089446F /* Info.plist */,
-			);
-			path = DzwMediaButtonUITests;
 			sourceTree = "<group>";
 		};
 		961199E02189A3C50089446F /* DzwMediaButton */ = {
@@ -286,7 +260,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				961199C82189A37E0089446F /* DzwMediaButtonTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,7 +267,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				961199D32189A37E0089446F /* DzwMediaButtonUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
