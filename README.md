@@ -18,7 +18,7 @@ typedef NS_ENUM(NSInteger,PlayButtonState) {
 
 ### 线条动画：
 
-你可以通过Slow Animation或者拆解gif图观察再将它拆解成小步骤，这里以暂停到播放为例：
+你可以通过Simulator-Debug-Slow Animation查看动画细节 或者拆解gif图查看动画细节，这里以暂停到播放为例：
 
 ```objective-c
 - (void)actionPositiveAnimation {
@@ -135,7 +135,7 @@ DzwMediaButton *button = [[DzwMediaButton alloc]initWithFrame:CGRectMake(self.vi
 
 
 
-效果图：
+整体效果图：
 
 
 
