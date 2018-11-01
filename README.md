@@ -99,6 +99,18 @@ button.fadeInColor = [UIColor colorWithRed:92.0/255.0 green:208.0/255.0 blue:194
 
 
 
+注意：在使用时要在button的点击方法中改变按钮的选择状态。
+
+```objective-c
+- (void)action:(UIButton *)sender{    
+    sender.selected = !sender.selected;
+}
+```
+
+
+
+
+
 下面这些是动画相关的公开属性用来修改动画相关的参数：
 
 ```objective-c
