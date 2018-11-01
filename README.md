@@ -99,7 +99,7 @@ button.fadeInColor = [UIColor colorWithRed:92.0/255.0 green:208.0/255.0 blue:194
 
 
 
-还有下面这些动画相关的公开属性可以用来修改动画相关的参数：
+下面这些是动画相关的公开属性用来修改动画相关的参数：
 
 ```objective-c
 // 按钮状态
