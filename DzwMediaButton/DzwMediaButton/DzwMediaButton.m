@@ -77,7 +77,7 @@ CGFloat const tapCircleDiameterDefault = -2.f;
     NSLog(@"%ld",(long)self.buttonState);
 }
 
-#pragma mark - itunes 播放按钮背景涟漪动画
+
 - (instancetype)initWithFrame:(CGRect)frame{
     
     if ([super initWithFrame:frame]) {
