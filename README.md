@@ -3,7 +3,7 @@
 
 ### 主要思路
 
-DzwMediaButton继承与UIButton，在UIButton基础上添加动画layer。按钮有2种状态：
+DzwMediaButton继承自UIButton，在UIButton基础上添加动画layer。按钮有2种状态：
 
 ```objective-c
 typedef NS_ENUM(NSInteger,PlayButtonState) {
