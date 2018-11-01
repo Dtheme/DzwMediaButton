@@ -1,6 +1,14 @@
 # DzwMediaButton
 工程使用过的多媒体播放动画按钮，主动画部分模仿爱奇艺播放按钮，添加了点击涟漪效果，涟漪效果的想法来自itunes中的按钮。
 
+
+
+### demo效果：
+
+<div align=center><img src="https://github.com/Dtheme/DzwMediaButton/blob/master/gif/button.gif"/></div>
+
+
+
 ### 主要思路
 
 DzwMediaButton继承自UIButton，在UIButton基础上添加动画。按钮有2种状态：
@@ -145,8 +153,7 @@ button.fadeInColor = [UIColor colorWithRed:92.0/255.0 green:208.0/255.0 blue:194
 
 
 
-整体效果图：
 
 
 
-<div align=center><img src="https://github.com/Dtheme/DzwMediaButton/blob/master/gif/button.gif"/></div>
+
